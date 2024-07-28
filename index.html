@@ -16,6 +16,57 @@
     <meta name="keywords" content="Ugandan Jobs, Jobs in Uganda, Careers, Employment, Job Opportunities, Uganda">
     <meta name="author" content="Ugandan Jobs">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        .single-slider {
+    padding: 60px 0;
+}
+
+.hero__caption {
+    text-align: left;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-title {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    color: #ecf0f1;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    </style>
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -47,7 +98,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Preloader Start -->
-    <!-- <div id="preloader-active">
+    <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
@@ -56,7 +107,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Preloader Start -->
     <header>
         <!-- Header Start -->
@@ -104,19 +155,22 @@
     <main>
 
         <!-- slider Area Start-->
-        <div class="slider-area ">
+        <div class="slider-area">
             <!-- Mobile Menu -->
-            <div class="slider-active">
-                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/images/woman_on_computer.jpg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-9 col-md-10">
-                                <div class="hero__caption">
-                                    <h1 style="color: whitesmoke !important;">Find the most recent jobs inside and out of Uganda</h1>
-                                </div>
+            <div class="single-slider slider-height d-flex align-items-center" style="background-color: #2c3e50;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-9 col-md-10">
+                            <div class="hero__caption">
+                                <h1 class="hero-title">
+                                    Find the most recent jobs inside and out of Uganda
+                                </h1>
+                                <p class="hero-subtitle">
+                                    Explore a wide range of job opportunities and take the next step in your career.
+                                </p>
+                                <a href="./job_listing.html" class="btn btn-primary hero-btn">Browse Jobs</a>
                             </div>
                         </div>
-                       
                     </div>
                 </div>
             </div>
